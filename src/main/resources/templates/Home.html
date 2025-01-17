@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<th:block th:insert="~{fragments/header}"></th:block>
+	<title>MyShop - Home</title>
+	<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<th:block th:insert="~{fragments/navbar}"></th:block>
+	<th:block th:insert="~{fragments/message}"></th:block>
+<div class="banner">
+		<div class="banner-content">
+		  <p class="banner-subtitle">Trending item</p>
+		  <h2 class="banner-title">Women's latest fashion sale</h2>
+		  <p class="banner-text">
+			starting at ₹200.00
+		  </p>
+		  <a href="/products" class="banner-btn">Shop now</a>
+		</div>
+</div>
+<div class="banner3">
+	<div class="banner-content">
+	 
+	  <a href="/products" class="banner-btn2">Shop now</a>
+	</div>		
+<div class="banner2">
+		<!-- <div class="banner-content">
+		  <p class="banner-subtitle">Most Selling item</p>
+		  <h2 class="banner-title">Women's latest Tops</h2>
+		  <p class="banner-text">
+			starting at ₹100.00
+		  </p> -->
+		  <!-- <a href="/products" class="banner-btn">Shop now</a> -->
+		</div>
+</div>
+<!-- <th:block th:insert="~{fragments/footer}"></th:block> -->
+</body>
+</html>
